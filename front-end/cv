@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <style>
+        .container{
+            margin: 60px;
+        }
 
+        h4{
+            color: rgb(16, 187, 56);
+            margin-bottom: 0;
+        }
+
+        p{
+            margin: 0;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .subtitulos{
+            color: rgb(61, 113, 255);
+        }
+
+        .list{
+            list-style-position: outside;
+            padding-left: 19px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <hr>
+        <section>
+            <h1>Santiago Mejía Largo</h1>
+            <h4>Junior Developer</h4>
+            <p>123 Neira</p>
+            <p>Código Postal</p>
+            <p>ejemplo@gmail.com</p>
+            <p>3123456789</p>
+        </section>
+        
+        <section>
+            <h4>Skills</h4>
+            <p>HTML, CSS, JavaScript</p>
+        </section>
+        
+        <section>
+            <h4>Education</h4>
+            <p class="subtitulos">Universidad de Caldas</p>
+            <ul class="list">
+                <li>Cosa 1</li>
+                <li>Cosa 2</li>
+                <li>Cosa 3</li>
+            </ul>
+        </section>
+
+        <section>
+            <h4>Experience</h4>
+            <p class="subtitulos">Empresa Uno - Titulo</p>
+            <ul class="list">
+                <li>Cosas Ahí</li>
+                <li>Otra cosa por ahi</li>
+                <li>Mas</li>
+                <li>Y otra</li>
+            </ul>
+
+            <p class="subtitulos">Empresa Dos - Titulo</p>
+            <ul class="list">
+                <li>Cosas Ahí</li>
+                <li>Otra cosa por ahi</li>
+                <li>Mas</li>
+                <li>Y otra</li>
+            </ul>
+        </section>
+
+        <section>
+            <h4>Across Internet</h4>
+            <p>Linkdin y demas redes de comunicacion</p>
+        </section>
+
+    </div>
+
+</body>
+</html>
