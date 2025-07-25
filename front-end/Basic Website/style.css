@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a :hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo{
+    align-self: flex-start;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid black;
+    padding: 50px;
+}
+
+.list-nav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.titulo {
+    align-self: flex-end;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin-bottom: 0;
+}
+
+p{
+    font-size: 14px;
+}
+
+h3{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: 10;
+    text-align: center;
+}
+
+h5{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 1px;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+    border: solid black;
+}
+
+.div3 {
+    grid-column: span 3 / span 3;
+    grid-row: span 5 / span 5;
+    grid-column-start: 3;
+    border: solid black;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+    grid-column-start: 6;
+    border: solid black;
+}
+
+.div5 {
+    grid-column: span 7 / span 7;
+    grid-row: span 3 / span 3;
+    grid-row-start: 6;
+    border: solid black;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    
+}
+
+.card{
+    border: solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.ultimo{
+    margin-bottom: 70px;
+}
+
+.text{
+    padding: 10px;
+}
+
+.curses{
+    font-size: 14px;
+}
+
+small{
+    color: grey;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+
+
